@@ -7,11 +7,13 @@ const Footer = () => {
   return (
     <div className="md:py-20 py-10 w-full">
       <div className="flex flex-row items-center w-full justify-between pb-10">
-        <h1
-          className={`font-bold text-white xl:text-4xl md:text-2xl text-xl ${pixelify.className}`}
-        >
-          Birnora
-        </h1>
+        <a href="#/">
+          <h1
+            className={`font-bold text-white xl:text-4xl md:text-2xl text-xl ${pixelify.className}`}
+          >
+            Birnora
+          </h1>
+        </a>
 
         <span className="flex flex-row justify-between space-x-8">
           <a className={`text-white ${playfair.className} font-semibold lg:text-lg text-base`}  href="#about">

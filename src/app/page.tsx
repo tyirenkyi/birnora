@@ -9,8 +9,8 @@ const pixelify = Pixelify_Sans({ subsets: ['latin'] })
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between 2xl:w-6/12 md:w-9/12 w-full px-[20px] mx-auto scroll-smooth">
-      <div className="h-screen pt-10">
+    <main className="flex min-h-screen flex-col items-center justify-between 3xl:w-5/12 2xl:w-7/12 md:w-8/12 w-full px-[20px] mx-auto scroll-smooth">
+      <div className="h-screen pt-10" id="/">
         <Navbar />
         <div className="h-full flex items-end justify-end">
           <div className="my-auto md:grid md:grid-cols-2 md:space-y-0 space-y-16">
@@ -95,7 +95,7 @@ export default function Home() {
             <h6 className={`${playfair.className} xl:text-3xl text-xl w-[200px] tracking-wider`}>
               Infrastructure Delivery Partner
             </h6>
-            <p className="text-opacity-50 text-white xl:text-lg sm:text-base text-sm md:file:w-[400px]">
+            <p className="text-opacity-50 text-white xl:text-lg sm:text-base text-sm md:w-[400px]">
             With a team
 of highly skilled professionals, we bring innovation and precision to every project we
 undertake.
