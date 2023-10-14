@@ -1,13 +1,19 @@
+'use client'
+
 import Image from 'next/image'
+import { useRouter } from 'next/navigation'
 
 import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
 import { Playfair_Display, Pixelify_Sans } from 'next/font/google'
 
-const playfair = Playfair_Display({ subsets: ['latin'] })
-const pixelify = Pixelify_Sans({ subsets: ['latin'] })
+const playfair = Playfair_Display({ subsets: ['latin'], display: 'swap' })
+const pixelify = Pixelify_Sans({ subsets: ['latin'], display: 'swap' })
+
 
 export default function Home() {
+  const router = useRouter()
+
   return (
     <main className="flex min-h-screen flex-col items-center justify-between 3xl:w-5/12 2xl:w-7/12 md:w-8/12 w-full px-[20px] mx-auto scroll-smooth">
       <div className="h-screen pt-10" id="/">
@@ -101,6 +107,7 @@ of highly skilled professionals, we bring innovation and precision to every proj
 undertake.
             </p>
             <button
+              onClick={() => router.push("/infrastructure")}
               className="text-white text-lg hover:text-opacity-70"
             >
               View +
@@ -115,6 +122,7 @@ undertake.
 market access for both hard and soft commodities.
             </p>
             <button
+              onClick={() => router.push("/market")}
               className="text-white text-lg hover:text-opacity-70"
             >
               View +
@@ -130,6 +138,7 @@ planning to detailed designs, our experts work closely with clients to ensure th
 each project is backed by sound engineering principles and innovative solutions.
             </p>
             <button
+              onClick={() => router.push("/engineering")}
               className="text-white text-lg hover:text-opacity-70"
             >
               View +

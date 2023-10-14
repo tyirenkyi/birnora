@@ -1,18 +1,21 @@
+import Link from "next/link"
 import { Pixelify_Sans, Playfair_Display } from "next/font/google"
 
-const pixelify = Pixelify_Sans({ subsets: ['latin'] })
-const playfair = Playfair_Display({ subsets: ['latin'] })
+const pixelify = Pixelify_Sans({ subsets: ['latin'], display: 'swap' })
+const playfair = Playfair_Display({ subsets: ['latin'], display: 'swap' })
 
 const Navbar = () => {
   return (
     <nav
       className="flex flex-row items-center w-full justify-between"
     >
-      <h1
-        className={`font-bold text-white text-4xl ${pixelify.className}`}
-      >
-        Birnora
-      </h1>
+      <Link href="/">
+        <h1
+          className={`font-bold text-white text-4xl ${pixelify.className}`}
+        >
+          Birnora
+        </h1>
+      </Link>
 
       <span className="md:flex flex-row justify-between space-x-8 hidden">
         <a className={`text-white ${playfair.className} font-semibold text-lg tracking-wider`} href="#about">
