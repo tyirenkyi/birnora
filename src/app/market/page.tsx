@@ -16,7 +16,7 @@ export default function Market() {
               <h3 className={`lg:w-2/4 w-3/4 text-white ${playfair.className} xl:text-4xl text-2xl tracking-wider`}>
                 Market Access
               </h3>
-              <h6 className="text-white md:w-3/4 my-auto xl:text-lg sm:text-base text-sm tracking-wider text-opacity-60">
+              <h6 className="text-white md:w-3/4 my-auto xl:text-lg sm:text-base text-sm tracking-wider">
               Beyond engineering and project management, we pride ourselves on facilitating
   market access for both hard and soft commodities. We understand the complexities
   of global trade, and our insights and connections empower businesses to thrive in a

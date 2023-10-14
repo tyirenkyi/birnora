@@ -17,7 +17,7 @@ export default function Infrastructure() {
               <h3 className={`lg:w-2/4 w-3/4 text-white ${playfair.className} xl:text-4xl text-2xl tracking-wider`}>
                 Infrastructure Delivery Partner
               </h3>
-              <h6 className="text-white md:w-3/4 my-auto xl:text-lg sm:text-base text-sm tracking-wider text-opacity-60">
+              <h6 className="text-white md:w-3/4 my-auto xl:text-lg sm:text-base text-sm tracking-wider">
               Our commitment to engineering forms the bedrock of our operations. With a team
 of highly skilled professionals, we bring innovation and precision to every project we
 undertake. Whether it&apos;s delivering sustainable Agri processing facilities, development

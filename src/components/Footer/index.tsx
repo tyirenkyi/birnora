@@ -10,17 +10,17 @@ const Footer = () => {
       <div className="flex flex-row items-center w-full justify-between pb-10">
         <Link href="/">
           <h1
-            className={`font-bold text-white xl:text-4xl md:text-2xl text-xl ${pixelify.className}`}
+            className={`font-bold text-yellow-300 xl:text-4xl md:text-2xl text-xl ${pixelify.className}`}
           >
             Birnora
           </h1>
         </Link>
 
         <span className="flex flex-row justify-between space-x-8">
-          <a className={`text-white ${playfair.className} font-semibold lg:text-lg text-base tracking-wider`}  href="#about">
+          <a className={`text-yellow-300 ${playfair.className} font-semibold lg:text-lg text-base tracking-wider`}  href="#about">
             About
           </a>
-          <a className={`text-white ${playfair.className} font-semibold lg:text-lg text-base tracking-wider`} href="#services">
+          <a className={`text-yellow-300 ${playfair.className} font-semibold lg:text-lg text-base tracking-wider`} href="#services">
             Services
           </a>
         </span>
@@ -30,7 +30,7 @@ const Footer = () => {
           className={`${playfair.className} text-white lg:text-xl text-base `}
         >Send an email to:</p>
         <a
-          className="text-white font-medium text-opacity-50 pt-1 lg:text-base text-sm" 
+          className="text-white font-medium pt-1 lg:text-base text-sm" 
           href="mailto:info@birnora.com"
         >
           info@birnora.com
